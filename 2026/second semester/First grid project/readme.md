@@ -8,6 +8,7 @@ A simple photo gallery showcasing my cat. Built to practice CSS Grid layout.
 <summary>Click to view website screenshot</summary>
 
 ![Website Screenshot](./screenshots/screenshot1.png)
+![Second screenshot](./screenshots/screenshot2.png)
 
 </details>
 
