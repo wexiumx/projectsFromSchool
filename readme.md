@@ -16,7 +16,7 @@ Planning to add projects using:
 
 ## Projects
 
-### [My Cat Gallery](./2026/second semester/First grid project/)
+### [My Cat Gallery](<./2026/second semester/First grid project>)
 Simple photo gallery built with CSS Grid.
 - **Tech:** HTML, CSS
 - **Focus:** CSS Grid layout, responsive design
