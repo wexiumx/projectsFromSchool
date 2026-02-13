@@ -2,6 +2,15 @@
 
 A simple photo gallery showcasing my cat. Built to practice CSS Grid layout.
 
+## Screenshots
+
+<details>
+<summary>Click to view website screenshot</summary>
+
+![Website Screenshot](./screenshots/screenshot1.png)
+
+</details>
+
 ## Features
 
 - Responsive grid layout
