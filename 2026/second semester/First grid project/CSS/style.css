@@ -1,0 +1,84 @@
+:root {
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-text: #cdd6f4;
+    --ctp-subtext0: #a6adc8;
+    --ctp-surface0: #313244;
+    --ctp-lavender: #b4befe;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    color: var(--ctp-text);
+    background-color: var(--ctp-base);
+    margin: 0;
+    font-family: Jetbrains Mono;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.box1 { grid-area: box1;}
+.box2 { grid-area: box2;}
+.box3 { grid-area: box3;}
+.box4 { grid-area: box4;}
+.box5 { grid-area: box5;}
+.box6 { grid-area: box6;}
+.box7 { grid-area: box7;}
+.box8 { grid-area: box8;}
+.box9 { grid-area: box9;}
+.box10 { grid-area: box10;}
+.box11 { grid-area: box11;}
+
+.box:hover {
+    -webkit-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.62); 
+    box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.62);
+    transition: box-shadow 0.6s;
+} 
+
+.container {
+    display: grid;
+    width: 700px;
+    grid-template-areas: 
+    'box1 box1 box2 box3 box3'
+    'box1 box1 box4 box5 box5'
+    'box7 box7 box8 box8 box8'
+    'box9 box10 box10 box10 box11';
+    justify-content: center;
+    align-content: center;
+    gap: 7px;
+}
+
+header {
+    background-color: var(--ctp-mantle);
+    border-bottom: 4px solid var(--ctp-surface0);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header p {
+    font-weight: bold;
+    color: var(--ctp-lavender);
+    font-size: x-large;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: var(--ctp-mantle);
+    border-top: 4px solid var(--ctp-surface0);
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: bold;
+    color: var(--ctp-lavender);
+    font-size: larger;
+}
+
